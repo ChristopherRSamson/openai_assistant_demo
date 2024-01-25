@@ -1,7 +1,7 @@
 from openai import OpenAI
 import time
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 # Step 1: Upload the file and get the response
 file_response = client.files.create(
